@@ -1,5 +1,5 @@
 body {
-    padding-top: 100px;
+    padding-top:100px;
     font-family: sans-serif;
     margin: 0 50px;
     background-color: #e5e5e5;
@@ -16,9 +16,9 @@ body {
 }
 
 .app {
-    background-color: black;
+    background-color: rgb(7, 7, 7);
     width: 300px;
-    height: 500px;
+    height: auto;
     border: 5px solid rgb(117, 116, 116);
     border-radius: 8px;
     padding: 15px;
@@ -49,6 +49,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 14px;
+    margin-bottom: 10px;
 }
 
 #tasks div {
@@ -71,9 +72,16 @@ body {
     cursor: pointer;
 }
 
-.foot {
+footer {
     margin-top: auto;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
+}
+
+footer a {
     color: white;
     text-decoration: none;
+}
+
+footer:hover, a:hover{
+    color: #00be56;
 }
